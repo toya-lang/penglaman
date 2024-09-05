@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>halaman web saya</title>
+    <style>
+        body {
+            background-image: url('gunung.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: 
+        }
+        h1 {
+            text-align: left;
+            color: orange;
+        }
+        .content {
+            margin: 0px;
+            padding: 30px;
+            background-color: lightblue;
+            border: 1px solid #ccc;
+            position: relative;
+        }
+        .top-line {
+            border-top: 2px solid blue;
+        }
+        .bottom-line {
+            border-bottom: 2px solid red;
+            margin-bottom: 30px;
+        }
+        .image-container {
+            position: relative;
+            display: inline-block;
+            padding-top: 10px;
+        }
+        .image-container::before {
+            content: '';
+            display: block;
+            width: 200px; 
+            height: 2px;
+            background-color: blue;
+            position: absolute;
+            top: 0;
+            left: -40px; 
+        }
+        .image {
+            border: 5px solid black;
+            width: 150px;
+            display: block;
+        }
+        .container {
+            text-align: right;
+            margin-right: 40px;
+        }
+    </style>
+    
+</head>
+<body>
+   <h1>Pengalaman Masuk Tkj</h1>
+    <div class="content top-line bottom-line">
+        <p>Hari pertama masuk kelas 10 jurusan Teknik Komputer   Jaringan terasa seperti petualangan baru. Saya masih ingat bagaimana pagi itu dimulai dengan rasa campur aduk antara antusiasme dan kecemasan. Begitu memasuki kelas, suasana langsung terasa berbeda ruangan dipenuhi dengan kawan kawan 1 angkatan yang belum saya kenal, saya pertama kali belajar tentang teknologi komputer pada saat saya berada di kelas 9 SMP pada saat itu 
+          saya mulai tertarik dengan komputer jaringan.</p>
+          <p>
+            Di jurusan TKJ saya mempelajari banyak hal seperti marekit pc, merancang topologi jaringan, mengkonfigurasi alamat IP dll.</p>
+    </div>
+    <div class="container">
+        <div class="image-container">
+            <img src="toyasigma.jpg" alt="Kittens" class="image">
+        </div>
+    </div>
+</body>
+</html>
